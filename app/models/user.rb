@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20100913041023
+# Schema version: 20100920211523
 #
 # Table name: users
 #
@@ -10,7 +10,10 @@
 #  updated_at         :datetime
 #  encrypted_password :string(255)
 #  salt               :string(255)
+#  admin              :boolean
 #
+
+# Run annotate to update schema information above
 
 require 'digest'
 
