@@ -5,7 +5,10 @@ gem 'rails', '3.0.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
+# Windows 7:
+gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
+
+# Mac OS X: gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
 gem 'gravatar_image_tag', '0.1.0'
 
