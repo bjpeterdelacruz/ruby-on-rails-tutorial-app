@@ -1,5 +1,4 @@
-# Ruby on Rails Tutorial: sample application
+# YATC: Yet another Twitter clone
 
-This is the sample application for
-[*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/)
-by [Michael Hartl](http://michaelhartl.com/).
+[*YATC*](http://yatc.heroku.com)
+by [BJ Peter DeLaCruz](http://www2.hawaii.edu/~bjpeter).
