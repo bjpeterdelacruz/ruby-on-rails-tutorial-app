@@ -11,3 +11,5 @@ following link on the right-hand side of your profile page. To list those who ar
 <li>You can change your name, e-mail address, password, and avatar via the <% if signed_in? %><%= link_to "Settings", edit_user_path(current_user) %>
 <% else %>Settings<% end %> page. Avatars are hosted on <a href="http://www.gravatar.com" target="_blank">Gravatar</a>, so to upload your own and use
 it on YATC, or use an avatar that is already on Gravatar, you have to sign up for an account with them first.</li></ul>
+<p>That's about it! If you have any questions or comments about YATC, please <%= link_to "contact", contact_path %> me. I'd be more than happy to hear from you!</p>
+<p>Regards,<br />BJ Peter DeLaCruz<br /><span style="font-style: italic;">Developer</span></p>

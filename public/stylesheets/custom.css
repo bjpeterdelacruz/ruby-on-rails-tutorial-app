@@ -29,17 +29,18 @@ section h1 {
 /* Links */
 
 a {
-  color: #0000FF;
+  color: rgb(152, 12, 39);
+  font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0000FF;
+  color: rgb(152, 12, 39);
   text-decoration: underline;
 }
 
 a:visited {
-  color: #0000FF;
+  color: rgb(152, 12, 39);
 }
 
 /* Navigation */
@@ -66,17 +67,17 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #0000FF;
+  color: rgb(152, 12, 39);
   padding: 0 5px;
   font-weight: bold;
 }
 
 nav ul li a:visited {
-  color: #0000FF;
+  color: rgb(152, 12, 39);
 }
 
 nav ul li a:hover {
-  color: #0000FF;
+  color: rgb(152, 12, 39);
   text-decoration: underline;
 }
 
@@ -89,7 +90,7 @@ a.signup_button {
   text-align: center;
   width: 190px;
   color: #fff;
-  background: #006400;
+  background: rgb(152, 12, 39);
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
@@ -98,6 +99,7 @@ a.signup_button {
 /* Round corners */
 
 .round {
+  -khtml-border-radius:  10px;
   -moz-border-radius:    10px;
   -webkit-border-radius: 10px;
   border-radius:         10px;
@@ -227,7 +229,7 @@ div.user_info img {
 }
 
 div.user_info a {
-  color: #0000FF;
+  color: rgb(152, 12, 39);
   text-decoration: none;
 }
 

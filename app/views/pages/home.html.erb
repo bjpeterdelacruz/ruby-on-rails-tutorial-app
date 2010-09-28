@@ -15,9 +15,8 @@
 <% else %>
   <h1>Welcome!</h1>
 
-  <p>
-    This is the home page for the YATC (Yet another Twitter clone) web application.
-  </p>
+  <p>This is the home page for the <span style="color: rgb(152, 12, 39);">Yet another Twitter clone</span> web application.</p>
 
-  <%= link_to "Sign up now!", signup_path, :class => "signup_button round" %>
+  <%= link_to "Sign up now!", signup_path, :class => "signup_button round" %><br />
+  <div style="text-align: center"><p>Or <%= link_to "sign in", signin_path %> if you already have an account.</p></div>
 <% end %>
