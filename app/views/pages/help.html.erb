@@ -1,2 +1,13 @@
 <h1>Help</h1>
-<p>Coming soon!</p>
+<p>To sign up for an account on YATC, all you need to do is supply a name for yourself and a valid e-mail address. Once you're signed in...</p>
+<ul><li>Click on <%= link_to "Home", root_path %> to write a new micropost. Here, you can also view all the microposts of those you
+are following, and yours too.</li>
+<li>Head over to <% if signed_in? %><%= link_to "Users", users_path %><% else %>Users<% end %> to see who else is signed up on YATC. Click on their
+names or profile pictures to view their profiles. To follow another user, head over to his or her profile page and click on the Follow button below
+his or her profile picture. To unfollow someone, simply click on the Unfollow button, also on the user's profile page.</li>
+<li>To view your own profile, check out the <% if signed_in? %><%= link_to "Profile", current_user %><% else %>Profile<% end %> page. Below your
+profile picture is a status feed that contains only your microposts. If you want see all the people whom you are following, click on the
+following link on the right-hand side of your profile page. To list those who are following you, click on the appropriately named followers link.</li>
+<li>You can change your name, e-mail address, password, and avatar via the <% if signed_in? %><%= link_to "Settings", edit_user_path(current_user) %>
+<% else %>Settings<% end %> page. Avatars are hosted on <a href="http://www.gravatar.com" target="_blank">Gravatar</a>, so to upload your own and use
+it on YATC, or use an avatar that is already on Gravatar, you have to sign up for an account with them first.</li></ul>
