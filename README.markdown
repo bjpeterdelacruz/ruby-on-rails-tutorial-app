@@ -1,4 +1,3 @@
-# YATC: Yet another Twitter clone
+# Ruby on Rails Tutorial Demo App
 
-[*YATC*](http://yatc.heroku.com)
-by [BJ Peter DeLaCruz](http://www2.hawaii.edu/~bjpeter).
+Developer's Website: [BJ Peter DeLaCruz](http://www.bjpeterdelacruz.com).
